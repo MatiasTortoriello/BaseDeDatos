@@ -1,0 +1,24 @@
+--Ejercicio 1
+
+
+CREATE DATABASE EJERCICIO_UNAHUR;
+
+CREATE TABLE CIUDAD (
+CodCiudad INT(2) PRIMARY KEY,
+Nombre VARCHAR(100) NOT NULL);
+
+CREATE TABLE CLIENTE( 
+    CodCliente INT(5) PRIMARY KEY,
+    Dni INT(10) NOT NULL,
+    Nombre VARCHAR(30) NOT NULL,
+    Apellidos VARCHAR (30), NOT NULL
+    Direccion VARCHAR(30) NOT NULL
+    FechaNac DATE,
+    
+    )
+
+CREATE TABLE PRODUCTO(
+    CodProducto INT(5) PRIMARY KEY,
+    NombreProducto VARCHAR(30) NOT NULL,
+    PrecioUnitario FLOAT(7) NOT NULL,
+)
