@@ -1,1 +1,5 @@
-ejercicio_unahur
+--Ejercicio 1
+
+CREATE TABLE Cliente(
+    IdCliente 
+)
