@@ -23,6 +23,7 @@ CREATE TABLE ESTACION (
     horario VARCHAR(10) NOT NULL, 
     ubicación VARCHAR(50) NOT NULL);
     
+	
 CREATE TABLE VECINO (
 	tipodoc VARCHAR(3), 
     nro_doc INT,
