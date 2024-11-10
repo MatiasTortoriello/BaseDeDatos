@@ -24,6 +24,8 @@ CREATE TABLE ESTACION (
     ubicación VARCHAR(50) NOT NULL);
     
 	
+
+	
 CREATE TABLE VECINO (
 	tipodoc VARCHAR(3), 
     nro_doc INT,
